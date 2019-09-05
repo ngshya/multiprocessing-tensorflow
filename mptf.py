@@ -28,7 +28,7 @@ mp.set_start_method('spawn', force=True) # (*)
 # Function that will be executed in each worker.
 def myF(i):
     print("Worker " + str(i) + " working...")
-    import tensorflow as tf # (*)
+    # import tensorflow as tf # (*)
     model = load_model("model.h5")
     print("Worker " + str(i) + " done!")
     return "Worker " + str(i) + " OK!"
