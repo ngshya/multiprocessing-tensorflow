@@ -1,6 +1,12 @@
 # Run Tensorflow/Keras models in parallel with multiprocessing
 
 
+# Python 3.6.8
+# tensorflow==2.0.0rc0
+# tensorflow-gpu==2.0.0rc0
+# numpy==1.16.1
+
+
 # Import packages.
 import tensorflow as tf
 from tensorflow.keras import Sequential
