@@ -1,9 +1,11 @@
 # Run Tensorflow/Keras models in parallel with multiprocessing
 
+# It seems that this workaround is not necessary anymore in Tensorflow 2.0
+
 
 # Python 3.6.8
-# tensorflow==2.0.0rc0
-# tensorflow-gpu==2.0.0rc0
+# tensorflow==1.14.0
+# tensorflow-gpu==1.14.0
 # numpy==1.16.1
 
 
